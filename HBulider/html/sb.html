@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="78478">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/angular.min.js"></script>
+		<script type="text/javascript">
+			 var app=angular.module('78478',[]);
+			 app.controller('con33',function($scope,$http){
+			 	 alert(arguments.lenth)
+			 	 
+			 });
+		</script>
+	</head>
+		
+	<body ng-controller="con33">
+		 <input type="text" ng-model="name" />
+		 <input type="button"  ng-click="FG(name)" value="点击" />
+	</body>
+</html>
